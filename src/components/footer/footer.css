@@ -1,0 +1,55 @@
+.footer {
+  padding: 100px 0;
+  background-color: #09142e;
+  display: flex;
+  justify-content: center;
+}
+
+.letter-b {
+  color: #fcae61;
+  font-size: 1.7em;
+  font-family: "Poppins", sans-serif;
+}
+
+.letter-r {
+  color: white;
+}
+
+.footer-div {
+  text-align: center;
+}
+.footer-menu > a {
+  text-decoration: none;
+  color: white;
+  padding: 25px;
+  font-family: "Bree Serif", serif;
+}
+
+.copyright {
+  color: #555b6d;
+  font-family: "Poppins", sans-serif;
+}
+
+.letter-b,
+.footer-menu,
+.copyright {
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .footer-menu > a {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-menu > a {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .footer-menu {
+    display: none;
+  }
+}

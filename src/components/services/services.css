@@ -1,0 +1,48 @@
+.services {
+  margin: 0 auto;
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  padding: 10px;
+}
+.img {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+}
+.img > div {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #edf3fa;
+}
+.img > div > img {
+  padding-top: 20px;
+  width: 80px;
+}
+
+/* services title */
+.service-t {
+  color: var(--font-color);
+  font-size: 1.2em;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20px;
+}
+
+.service-s {
+  font-family: "Roboto Condensed", sans-serif;
+
+  color: #245481;
+}
+
+@media only screen and (max-width: 1000px) {
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 800px) {
+  .services {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

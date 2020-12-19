@@ -1,0 +1,50 @@
+.seo {
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.seo-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seo-image > img {
+  width: 80%;
+}
+
+.seo-t {
+  padding-bottom: 20px;
+  color: var(--font-color);
+  font-size: 2.3em;
+  font-family: "Poppins", sans-serif;
+}
+.seo-s {
+  font-family: "Roboto Condensed", sans-serif;
+
+  color: #245481;
+}
+
+@media only screen and (max-width: 1095px) {
+  .seo {
+    grid-template-columns: 100%;
+  }
+  .seo-content {
+    order: 0;
+  }
+  .seo-image {
+    order: 1;
+    text-align: center;
+  }
+  .seo-image > img {
+    width: 55%;
+  }
+  .seo-t {
+    text-align: center;
+  }
+  .seo-s {
+    text-align: center;
+    padding-bottom: 150px;
+  }
+}

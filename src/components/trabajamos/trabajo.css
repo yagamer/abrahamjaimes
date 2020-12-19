@@ -1,0 +1,114 @@
+.trabajo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  padding-top: 100px;
+}
+.trabajo-t {
+  font-family: "Poppins", sans-serif;
+  color: var(--font-color);
+  font-size: 2.3em;
+}
+.trabajo-s {
+  font-family: "Roboto Condensed", sans-serif;
+
+  color: #245481;
+}
+.trabajo-image {
+  display: flex;
+  justify-content: flex-end;
+}
+.trabajo-image > img {
+  padding-top: 60px;
+  width: 80%;
+}
+
+.planeamos {
+  padding-top: 100px;
+
+  display: flex;
+}
+.planeamos > div {
+  padding-left: 25px;
+}
+.planeamos > img {
+  width: 80px;
+}
+.planeamos-t {
+  font-family: "Poppins", sans-serif;
+  color: #f55767;
+  font-size: 1.2em;
+}
+
+.planeamos-s {
+  font-family: "Roboto Condensed", sans-serif;
+
+  color: #245481;
+}
+
+.disenamos-t {
+  font-family: "Poppins", sans-serif;
+  color: #2563ff;
+  font-size: 1.2rem;
+}
+
+.construimos-t {
+  font-family: "Poppins", sans-serif;
+  color: #71ad85;
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 800px) {
+  .trabajo-image > img {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .trabajo {
+    padding-top: 70px;
+    grid-template-columns: 100%;
+  }
+  .trabajo-image {
+    justify-content: center;
+  }
+  .trabajo-c {
+    display: flex;
+    justify-content: center;
+  }
+  .planeamos {
+    padding-top: 50px;
+    display: block;
+
+    text-align: center;
+  }
+  .trabajo-image > img {
+    width: 60%;
+  }
+  .planeamos-t {
+    font-size: 1.8rem;
+  }
+
+  .planeamos-s {
+    font-size: 1.1em;
+  }
+  .disenamos-t {
+    font-size: 1.8rem;
+  }
+
+  .disenamos-s {
+    font-size: 1.1em;
+  }
+  .construimos-t {
+    font-size: 1.8rem;
+  }
+
+  .construimos-s {
+    font-size: 1.1em;
+  }
+  .center {
+    text-align: center;
+  }
+  .trabajo-t {
+    font-size: 2.1em;
+  }
+}

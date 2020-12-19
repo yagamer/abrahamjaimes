@@ -1,0 +1,135 @@
+.contact-t {
+  text-align: center;
+  padding: 200px 0;
+  font-size: 2.3em;
+  color: var(--font-color);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.contact-grid {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+
+  background-color: #a4e9b3;
+}
+
+.contact-title {
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.3em;
+  color: #212121;
+  text-align: center;
+  border-bottom: 5px solid #212121;
+}
+.contact-add {
+  padding: 20px 0;
+
+  width: 60%;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.3em;
+  color: #212121;
+  text-align: center;
+  border-bottom: 5px solid #212121;
+}
+.contact-add > p {
+  visibility: hidden;
+}
+
+form {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 80%;
+}
+form > div > input {
+  width: 100%;
+  background-color: #212121;
+  color: #a4e9b3;
+  height: 40px;
+  font-size: 1.4em;
+  padding-left: 10px;
+  outline: none;
+  font-family: "Hammersmith One", sans-serif;
+}
+form > div > textarea {
+  width: 100%;
+  background-color: #212121;
+  color: #a4e9b3;
+  height: 40px;
+  font-size: 1.4em;
+  padding-left: 10px;
+  outline: none;
+  height: 200px;
+  font-family: "Hammersmith One", sans-serif;
+}
+form > div > button {
+  width: 30%;
+  background-color: #a4e9b3;
+  border: 3px solid #212121;
+  height: 50px;
+  font-size: 1.4em;
+  font-family: "Hammersmith One", sans-serif;
+  cursor: pointer;
+}
+
+form > div {
+  padding: 10px 0;
+}
+
+.contact-info {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 80%;
+}
+.contact-info > p {
+  color: #212121;
+  font-size: 1.4em;
+  font-family: "Poppins", sans-serif;
+}
+.contact-info > a > img {
+  padding-right: 5px;
+  width: 40px;
+}
+
+.sobre-mi {
+  padding: 20px 20px 0 0;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 1.4em;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.btn-state {
+  display: flex;
+}
+
+.state {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.state > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4em;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact-grid {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .contact-info > p {
+    font-size: 1.2em;
+  }
+}

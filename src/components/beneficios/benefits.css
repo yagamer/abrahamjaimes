@@ -1,0 +1,17 @@
+.benefits {
+  padding: 200px 0;
+  text-align: center;
+}
+
+.benefits-t {
+  color: var(--font-color);
+  font-size: 2.3em;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 50px;
+}
+
+.benefits-s {
+  font-family: "Roboto Condensed", sans-serif;
+
+  color: #245481;
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Germania+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+.price {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.price-header {
+  background: linear-gradient(
+    0deg,
+    rgba(244, 247, 249, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  text-align: center;
+}
+.price-header > img {
+  width: 80px;
+}
+.price-p {
+  color: var(--font-color);
+  font-size: 3em;
+  font-family: "Germania One", cursive;
+}
+.basico {
+  font-family: "Didact Gothic", sans-serif;
+
+  color: var(--font-color);
+  font-size: 2em;
+}
+
+.basico,
+.price-p {
+  padding: 30px 0;
+}
+
+/* price body  */
+.price-body {
+  font-family: "Roboto Condensed", sans-serif;
+
+  color: #245481;
+
+  text-align: center;
+}
+.price-body > div > p {
+  padding: 15px 0;
+}
+
+.price-basico {
+  border: 1px solid #e6e6e6;
+  box-shadow: 5px 5px 50px 9px #e6e6e6;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1000px) {
+  .price {
+    grid-template-columns: 100%;
+  }
+  .price-basic {
+    border: 1px solid #e6e6e6;
+  }
+}

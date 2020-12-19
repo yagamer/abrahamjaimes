@@ -1,0 +1,67 @@
+.tecnologias {
+  padding: 200px 0;
+  background-color: var(--bg-color);
+}
+.tec-title {
+  font-size: 1.5rem;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: var(--font-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.tec-grid {
+  padding: 20px;
+  display: grid;
+  margin: 0 auto;
+  width: 50%;
+
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.tec-grid img {
+  width: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .tec-grid img {
+    width: 60px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .tec-grid {
+    width: 80%;
+  }
+  .tec-grid img {
+    margin: 0 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .tecnologias {
+    padding: 150px 0;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .tec-grid {
+    width: 90%;
+  }
+  .tec-grid img {
+    margin: 0 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .tecnologias {
+    padding: 100px 0;
+  }
+  .tec-grid {
+    width: 100%;
+  }
+  .tec-grid img {
+    width: 40px;
+    margin: 0 5px;
+  }
+  .tec-title {
+    font-size: 1em;
+  }
+}
