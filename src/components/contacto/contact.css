@@ -84,7 +84,7 @@ form > div {
 .contact-info {
   margin: 0 auto;
   padding-top: 20px;
-  width: 80%;
+  width: 100%;
 }
 .contact-info > p {
   color: #212121;
@@ -122,6 +122,13 @@ form > div {
 }
 
 @media only screen and (max-width: 1000px) {
+  .contact-add {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contact-info {
+    width: 80%;
+  }
   .contact-grid {
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
